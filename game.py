@@ -71,8 +71,8 @@ class Game:
         self.level = Scene()
         self.player = GameObject(ColorPalette.CRIMSON, 300, 300)
         self.player_controller = ControllerHandler(self.player)
-        self.map_data = pyscroll.TiledMapData(self.level.level), (WIDTH / 1.5,  HEIGHT / 1.5)
-        self.map_layer = pyscroll.BufferedRenderer(self.map_data)
+        self.map_data = pyscroll.TiledMapData(self.level.level)
+        self.map_layer = pyscroll.BufferedRenderer(self.map_data, (WIDTH / 1.5,  HEIGHT / 1.5))
         self.camera_group = pyscroll.PyscrollGroup(map_layer=self.map_layer, layer=-1)
 
         self.map_layer.zoom = 1.5
