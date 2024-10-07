@@ -16,7 +16,7 @@ class Game:
     def setup(self):
         self.is_running = True
         self.scene = Scene()
-        self.player = GameObject(ColorPalette.CRIMSON, 300, 300)
+        self.player = GameObject(ColorPalette.CRIMSON, 600, 600)
         self.scene.player = self.player
         self.scene.camera_group.add(self.player, layer=5)
 
