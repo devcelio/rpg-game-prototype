@@ -1,0 +1,97 @@
+{
+    "activeFile": "assets/tilessets/city/tsx/walls.tsx",
+    "expandedProjectPaths": [
+        ".",
+        "assets/tilessets/houses",
+        "assets",
+        "assets/tilessets/interiors/tsx",
+        "assets/tilessets",
+        "assets/tilessets/world",
+        "assets/levels",
+        "assets/tilessets/city",
+        "assets/tilessets/world/tsx",
+        "assets/tilessets/city/tsx"
+    ],
+    "fileStates": {
+        "assets/levels/small_town.tmx": {
+            "expandedGroupLayers": [
+                5
+            ],
+            "scale": 1,
+            "selectedLayer": 4,
+            "viewCenter": {
+                "x": -108,
+                "y": 677
+            }
+        },
+        "assets/tilessets/city/tsx/barrels.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "assets/tilessets/city/tsx/boxes.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "assets/tilessets/city/tsx/floor.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "assets/tilessets/city/tsx/walls.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "assets/tilessets/houses/tsx/houses_d.tsx": {
+            "scaleInDock": 1
+        },
+        "assets/tilessets/world/tsx/bridge.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "assets/tilessets/world/tsx/decorations.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 2
+        },
+        "assets/tilessets/world/tsx/decorations_autumn.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "assets/tilessets/world/tsx/terrain.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "assets/tilessets/world/tsx/terrain_autumn.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "assets/tilessets/world/tsx/terrain_winter.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "assets/tilessets/world/tsx/waterfalls.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        }
+    },
+    "frame.defaultDuration": 180,
+    "openFiles": [
+        "assets/levels/small_town.tmx",
+        "assets/tilessets/city/tsx/walls.tsx"
+    ],
+    "project": "cd_rpg.tiled-project",
+    "recentFiles": [
+        "assets/levels/small_town.tmx",
+        "assets/tilessets/city/tsx/walls.tsx",
+        "assets/tilessets/world/tsx/terrain_winter.tsx",
+        "assets/tilessets/city/tsx/floor.tsx",
+        "assets/tilessets/city/tsx/boxes.tsx",
+        "assets/tilessets/city/tsx/barrels.tsx",
+        "assets/tilessets/world/tsx/decorations.tsx",
+        "assets/tilessets/world/tsx/terrain_autumn.tsx",
+        "assets/tilessets/world/tsx/waterfalls.tsx",
+        "assets/tilessets/world/tsx/terrain.tsx",
+        "assets/tilessets/world/tsx/decorations_autumn.tsx",
+        "assets/tilessets/world/tsx/bridge.tsx"
+    ]
+}
