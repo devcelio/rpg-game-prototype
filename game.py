@@ -29,6 +29,7 @@ class Game:
         self.display.blit(surface, (10, 10))
 
     def run(self):
+        
         while self.is_running:
             delta = self.clock.tick(0) / 1000
             for event in pg.event.get():

@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tileset version="1.10" tiledversion="1.11.0" name="decorations" tilewidth="16" tileheight="16" tilecount="320" columns="20">
  <image source="../decorations.png" width="320" height="256"/>
- <tile id="73">
-  <objectgroup draworder="index" id="2">
-   <object id="1" x="10" y="0.125" width="6" height="15.875"/>
-  </objectgroup>
+ <tile id="54">
+  <properties>
+   <property name="collision" type="bool" value="true"/>
+  </properties>
  </tile>
  <tile id="74">
   <objectgroup draworder="index" id="2">
    <object id="1" x="0" y="0" width="16" height="16"/>
   </objectgroup>
  </tile>
- <tile id="75">
+ <tile id="126">
   <objectgroup draworder="index" id="2">
-   <object id="1" x="0" y="-0.0625" width="5.875" height="16"/>
+   <object id="1" x="2" y="4" width="13" height="11"/>
   </objectgroup>
  </tile>
  <tile id="133">

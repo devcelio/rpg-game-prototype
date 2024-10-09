@@ -1,16 +1,16 @@
 {
-    "activeFile": "assets/tilessets/city/tsx/walls.tsx",
+    "activeFile": "assets/tilessets/world/tsx/decorations.tsx",
     "expandedProjectPaths": [
-        ".",
-        "assets/tilessets/houses",
-        "assets",
-        "assets/tilessets/interiors/tsx",
         "assets/tilessets",
+        "assets/tilessets/world/tsx",
         "assets/tilessets/world",
+        "assets",
+        "assets/tilessets/houses",
+        "assets/tilessets/interiors/tsx",
+        "assets/models",
         "assets/levels",
         "assets/tilessets/city",
-        "assets/tilessets/world/tsx",
-        "assets/tilessets/city/tsx"
+        "."
     ],
     "fileStates": {
         "assets/levels/small_town.tmx": {
@@ -18,10 +18,10 @@
                 5
             ],
             "scale": 1,
-            "selectedLayer": 4,
+            "selectedLayer": 3,
             "viewCenter": {
-                "x": -108,
-                "y": 677
+                "x": 529.5,
+                "y": 588
             }
         },
         "assets/tilessets/city/tsx/barrels.tsx": {
@@ -36,7 +36,27 @@
             "scaleInDock": 1,
             "scaleInEditor": 1
         },
+        "assets/tilessets/city/tsx/flower_fence.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "assets/tilessets/city/tsx/flowers.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "assets/tilessets/city/tsx/lamps.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "assets/tilessets/city/tsx/other.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
         "assets/tilessets/city/tsx/walls.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "assets/tilessets/city/tsx/wooden_fence.tsx": {
             "scaleInDock": 1,
             "scaleInEditor": 1
         },
@@ -50,9 +70,13 @@
         "assets/tilessets/world/tsx/decorations.tsx": {
             "dynamicWrapping": false,
             "scaleInDock": 1,
-            "scaleInEditor": 2
+            "scaleInEditor": 1.5
         },
         "assets/tilessets/world/tsx/decorations_autumn.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "assets/tilessets/world/tsx/decorations_winter.tsx": {
             "scaleInDock": 1,
             "scaleInEditor": 1
         },
@@ -75,23 +99,28 @@
         }
     },
     "frame.defaultDuration": 180,
+    "last.objectTemplatePath": "/home/celio/Projetos/rpg-game-prototype/assets/models",
     "openFiles": [
+        "assets/tilessets/world/tsx/terrain.tsx",
         "assets/levels/small_town.tmx",
-        "assets/tilessets/city/tsx/walls.tsx"
+        "assets/tilessets/world/tsx/decorations_autumn.tsx",
+        "assets/tilessets/world/tsx/decorations_winter.tsx",
+        "assets/tilessets/world/tsx/decorations.tsx"
     ],
     "project": "cd_rpg.tiled-project",
+    "property.type": "bool",
     "recentFiles": [
-        "assets/levels/small_town.tmx",
-        "assets/tilessets/city/tsx/walls.tsx",
-        "assets/tilessets/world/tsx/terrain_winter.tsx",
-        "assets/tilessets/city/tsx/floor.tsx",
-        "assets/tilessets/city/tsx/boxes.tsx",
-        "assets/tilessets/city/tsx/barrels.tsx",
-        "assets/tilessets/world/tsx/decorations.tsx",
-        "assets/tilessets/world/tsx/terrain_autumn.tsx",
-        "assets/tilessets/world/tsx/waterfalls.tsx",
         "assets/tilessets/world/tsx/terrain.tsx",
+        "assets/levels/small_town.tmx",
         "assets/tilessets/world/tsx/decorations_autumn.tsx",
-        "assets/tilessets/world/tsx/bridge.tsx"
+        "assets/tilessets/world/tsx/decorations_winter.tsx",
+        "assets/tilessets/world/tsx/decorations.tsx",
+        "assets/tilessets/city/tsx/wooden_fence.tsx",
+        "assets/tilessets/city/tsx/other.tsx",
+        "assets/tilessets/city/tsx/lamps.tsx",
+        "assets/tilessets/city/tsx/flowers.tsx",
+        "assets/tilessets/city/tsx/flower_fence.tsx",
+        "assets/tilessets/city/tsx/floor.tsx",
+        "assets/tilessets/city/tsx/boxes.tsx"
     ]
 }

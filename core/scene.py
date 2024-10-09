@@ -1,6 +1,6 @@
 import pyscroll, pytmx, pygame as pg
 from core import settings as conf
-from core.chunk_handler import ChunkTiledMap, load_tiled_map
+from core.game_map import GameMap, load_tiled_map
 import timeit
 import random
 
@@ -16,30 +16,11 @@ class Scene:
         self.camera_group = pyscroll.PyscrollGroup(map_layer=self.map_layer)
         self.center_rect = None
         self.player = None
-        """
-        I realized the loading takes more time because of the large amount of rects.
-        If you keep the amount of collisions small, it won't take that long to load
-
-        """
-        self.simulate_collisions = False # Change this to disable the collision simulation)
-        if self.simulate_collisions:
-            self.load_rects()
-
-    def load_rects(self):
-        self.rects = [
-            pg.Rect((random.randint(0, 30), random.randint(0, 30), 32, 32)) # simulating instantiation of many collision rects
-            for i in range(1_000_000)
-        ]
 
     def update(self, delta):
-        if self.simulate_collisions:
-            for i in range(100): # simulating 100 sprites calculating collision vs rects
-                for r in self.rects:
-                    r.colliderect(self.player.rect)
-
         self.camera_group.update(delta, sprites=self.camera_group, level=self.level)
         self.camera_group.center(self.center_rect)
-        self.get_visible_tiles()
+        # self.get_visible_tiles()
 
     def get_visible_tiles(self):
         view = self.map_layer.view_rect
